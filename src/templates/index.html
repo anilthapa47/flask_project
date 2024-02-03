@@ -1,0 +1,16 @@
+
+{% extends "base.html" %} {% block head %} {{ super()}}
+<link 
+    rel="stylesheet" href="{{ url_for('static', filename='extended_beauty.css')}}"
+/>
+{% endblock %} {% block content %} 
+<h1> Hiking step tracker </h1>
+<center>
+    <img
+        src="{{ url_for('static', filename='images/hiking.png')}}"
+        alt="hiking"
+    />
+</center>
+<p>Welcome to step tracker webapp! <br />You can track your steps in this page</p
+
+{% endblock %}

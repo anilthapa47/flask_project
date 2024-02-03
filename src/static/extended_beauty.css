@@ -1,0 +1,40 @@
+h1,
+h2,
+h4,
+p {
+  font-family: "Arvo", serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+#intro {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+/* Reset default margin and padding for body and image */
+body, img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define styles for the container */
+.container {
+  display: flex;
+}
+
+/* Style the image to cover 25% of the webpage width */
+.image {
+  flex: 1;
+  max-width: 25%;
+  overflow: hidden;
+}
+
+/* Style the image to be responsive and fill its container */
+img {
+  width: 100%;
+  height: auto;
+}
